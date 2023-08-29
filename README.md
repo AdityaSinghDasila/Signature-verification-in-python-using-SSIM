@@ -1,2 +1,3 @@
 # Signature-verification-in-python-using-SSIM
 an attempt to recognize forged signatures using Structural Similiarity Index algorithm using python programming language.
+This program is simple signature verification system using SSIM in Python. It offers a GUI to compare two signature images. The images undergo preprocessing (grayscale conversion and resizing) before SSIM-based feature extraction. The SSIM value determines the similarity between the signatures, and a predefined threshold (85) determines if the signatures match. The system displays matching or non-matching messages based on the result. The code provides a basic implementation but could be improved by adding more sophisticated image processing techniques and optimizing the threshold for better accuracy.
